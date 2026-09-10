@@ -1,0 +1,29 @@
+{
+  "name": "zero-live-preview",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight, zero-dependency, zero-terminal-clutter live preview daemon for Zed Editor.",
+  "main": "server.js",
+  "bin": {
+    "zero-preview": "./cli.js"
+  },
+  "scripts": {
+    "setup": "node install.js",
+    "uninstall": "node install.js --uninstall"
+  },
+  "keywords": [
+    "zed",
+    "zed-editor",
+    "live-preview",
+    "live-server",
+    "hot-reload",
+    "html-preview",
+    "zero-dependency",
+    "sse",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

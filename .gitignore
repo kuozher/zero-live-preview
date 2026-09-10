@@ -1,0 +1,24 @@
+# Logs
+*.log
+debug.log
+out.log
+err.log
+server.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies (if any tests are added in future)
+node_modules/
+
+# Test Artifacts
+test_tmp_*/
+scratch/
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
